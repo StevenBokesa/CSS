@@ -286,6 +286,18 @@
 }
 
 /**
+   * Centering the contaniner of the button to the center of the page
+   */
+   body {
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+/**
    * Styling the column of the index page that contains our button
    */
 .column{
@@ -388,7 +400,7 @@
   
  
 
-  
+
 
   
 
